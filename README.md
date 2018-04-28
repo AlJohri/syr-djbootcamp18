@@ -1,7 +1,7 @@
 # syracuse-data-journalism-course-2018
 
-**Instructors**: [Dhrumil Mehta](https://www.linkedin.com/in/dhrumilmehta/) and [Al Johri](https://www.linkedin.com/in/AlJohri)
-**Dates**: May 4 - May 6
+- **Instructors**: [Dhrumil Mehta](https://www.linkedin.com/in/dhrumilmehta/) and [Al Johri](https://www.linkedin.com/in/AlJohri)
+- **Dates**: May 4 - May 6
 
 ## Prework
 
