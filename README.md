@@ -1,4 +1,6 @@
-# syracuse-data-journalism-course
+# syracuse-data-journalism-course-2018
+
+## Prework
 
 **Dataset**: https://projects.propublica.org/represent/expenditures
 
@@ -12,4 +14,12 @@
 | Sept. 12, 2014 | [Landrieu pays back nearly $34K for charter flights](https://www.usatoday.com/story/news/politics/2014/09/12/landrieu-releases-flight-charter-info/15539311/) |
 | Mar. 20, 2015 | [20 House members received more money for mileage than Aaron Schock last year](https://sunlightfoundation.com/2015/03/20/twenty-house-members-received-more-money-for-mileage-than-aaron-schock-last-year/) |
 | Apr 2, 2015 | [Travel in the shadows: House reports omit key spending details](https://sunlightfoundation.com/2015/04/02/travel-in-the-shadows-house-reports-omit-key-spending-details/) |
+
+## Day 0: Friday, May 4
+
+like any good programmer, we start our counting with 0...
+
+## Day 1: Saturday, May 5
+
+## Day 2: Sunday, May 6
 
