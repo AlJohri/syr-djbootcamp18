@@ -5,7 +5,7 @@
 #### Stories
 
 | date | headline |
-------------------
+|-------|---------|
 | Jan. 17, 2012 | [How House Operating Budget Cuts are Paving the Way for More Special Interest Influence](https://www.propublica.org/article/house-operating-budget-cuts-paving-way-for-more-special-interest-influence) |
 | Feb. 6, 2012 | [Turnover in the House: Who Keeps — And Who Loses — the Most Staff](https://www.propublica.org/article/turnover-in-the-house-who-keeps-and-who-loses-the-most-staff) |
 | Sept. 12, 2014 | [Landrieu pays back nearly $34K for charter flights](https://www.usatoday.com/story/news/politics/2014/09/12/landrieu-releases-flight-charter-info/15539311/) |
