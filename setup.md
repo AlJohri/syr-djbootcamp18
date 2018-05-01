@@ -24,9 +24,12 @@
 
 	*If you already have Sublime Text or iTerm2 installed, I recommend uninstalling (dragging to Trash) the app first and re-installing via brew cask as shown below.*
 
+	*When you see multiple lines, copy them one by one after waiting for the previous command to finish.*
+
 	```
 	brew update
 	brew upgrade
+	brew cleanup
 	brew install python3 tree wget
 	brew cask install sublime-text iterm2
 	pip3 install csvkit
