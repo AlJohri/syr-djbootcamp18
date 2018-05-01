@@ -33,7 +33,7 @@
 
 1. Introductions
 2. [Setup](./setup.md)
-3. [Command Line](./commandline)
+3. Command Line
 	- [Intro](./commandline/01-intro.md)
 	- [Filesystem](./commandline/02-filesystem.md)
 	- [Redirection](./commandline/03-redirection.md)
