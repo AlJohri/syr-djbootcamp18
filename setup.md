@@ -40,6 +40,7 @@
 
 	```
 	brew update
+	brew upgrade
 	```
 
 5. Install necessary packages using the following commands:
