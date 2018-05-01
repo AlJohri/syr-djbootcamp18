@@ -1,6 +1,6 @@
 # Setup
 
-1. Open `Terminal.app` from the Applications folder.
+1. Open `Terminal.app` from the Applications folder. You can press Cmd+Space to initiate Spotlight and then type `Terminal`.
 
 	*`Terminal.app` is how we will run command line software. Instead of clicking buttons on graphical user interfaces (GUIs), we will type commands on the command line (CLI).*
 
@@ -30,7 +30,34 @@
 	brew update
 	brew upgrade
 	brew cleanup
-	brew install python3 tree wget
+	brew install python tree wget
 	brew cask install sublime-text iterm2
-	pip3 install csvkit
+	pip3 install requests bs4 csvkit
 	```
+
+4. Verify that everything is installed correctly.
+
+	*When you see a $ dollar sign, it signals the start of a command line prompt. It is used to differentiate between what you should type vs. what the output should look like (usually right below).*
+
+	```
+	$ which python3
+	/usr/local/bin/python3
+	```
+
+	```
+	$ python3 --version
+	Python 3.6.5
+	```
+
+	```
+	$ which csvcut 
+	/usr/local/bin/csvcut
+	```
+
+	```
+	$ subl .
+	```
+
+	Sublime Text 3 should open up.
+
+	Open `iTerm.app` from the Applications directory. We will now use this program instead of `Terminal.app`.
