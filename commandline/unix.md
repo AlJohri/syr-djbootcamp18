@@ -22,7 +22,7 @@ Many Unix-like operating systems have arisen over the years, of which Linux is t
 
 ## Environment Variables and PATH
 
-#### Evnironment Variables
+#### Environment Variables
 Setting Environment Variables
 
 ```
@@ -169,7 +169,7 @@ Prepend any command with `sudo` in order to run the command as root user. Try to
 	```python
 	#!/usr/bin/env python3
 	import sys
-	name = sys.stdin.read()
+	name = sys.stdin.read().strip()
 	print("Hello " + name + "!")
 	```
 
@@ -192,7 +192,7 @@ This program below will add 1 to the input on STDIN.
 ```python
 #!/usr/bin/env python3
 import sys
-input_number = sys.stdin.read()
+input_number = sys.stdin.read().strip()
 print(int(input_number) + 1)
 ```
 
