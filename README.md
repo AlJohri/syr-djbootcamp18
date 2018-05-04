@@ -9,7 +9,7 @@
 
 ## Day 0: Prework
 
-1. Fill out the survey: https://docs.google.com/forms/d/e/1FAIpQLSeETJgsTed3aWj32SbcYoDzmFLQRd2erxbXI_EZXY3Hx5h7sQ/viewform
+1. Fill out the survey: https://goo.gl/forms/IKl3iX6S6P30wCh43
 
 2. Familiarize yourself with this data: https://projects.propublica.org/represent/expenditures
 
