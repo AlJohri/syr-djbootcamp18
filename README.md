@@ -41,7 +41,6 @@
 	- [Data](./commandline/05-data.md)
 	- [Resources](./commandline/06-resources.md)
 	- [Review](./commandline/07-resources.md)
-4. Data and the Command Line
 
 ## Day 2: Saturday, May 5 (9am-5pm)
 
