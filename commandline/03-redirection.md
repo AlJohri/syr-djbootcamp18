@@ -1,6 +1,4 @@
-# Command Line 3
-
-## Redirection & Piping
+# Command Line: Redirection & Piping
 
 ##### Redirecting output to file: `>`
 

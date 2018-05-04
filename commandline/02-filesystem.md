@@ -1,4 +1,4 @@
-# Command Line 2 
+# Command Line: Filesystem
 
 ## Interacting with the Filesystem
 
@@ -47,7 +47,7 @@ Below is an example directory structure from macOS.
         ├── Movies
         ├── Music
         └── Pictures
- 
+
 ```
 
 In the example above, if I was in the Downloads folder and I wanted the relative path to the Documents folder, that would be `../Documents`.
@@ -87,7 +87,7 @@ cd <target_directory>
 
 #### `ls`
 
-In order to **l**i**s**t the contents of the current directory you can use `ls`. 
+In order to **l**i**s**t the contents of the current directory you can use `ls`.
 
 * `ls -a` lists **a**ll files, including hidden files
 * `ls -l` lists the files in a **l**ong format with extra information (permissions, size, last modified date, etc.)
@@ -152,7 +152,7 @@ If you don't have Sublime Text installed, run `brew cask install sublime-text` o
 ### ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
 
 1. Take some time to cd around and explore your filesystem. See what is at the root, see if you can find some of the files you use daily.
-2. Navigate to `~/Desktop` and run both `ls -a` and `tree` 
+2. Navigate to `~/Desktop` and run both `ls -a` and `tree`
 3. Navigate to `~/Downloads` and run the `ls -l` command to see information about every item in that folder
 
 **hint!** - are you lost? don't know what to type next?
@@ -264,6 +264,6 @@ cd ~/Development/universe
 find . -type d
 -->
 
-**hint**: 
+**hint**:
 
 The manual for the find command (`man find`) is super long. The answer is in there, but it might take a while to find. You might want to try google instead.

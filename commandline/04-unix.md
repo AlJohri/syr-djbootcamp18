@@ -1,6 +1,4 @@
-# Command Line 4
-
-## Unix
+# Command Line: Unix
 
 Unix (/ˈjuː.nɪks/; trademarked as UNIX) is a family of multitasking, multiuser computer operating systems that derive from the original AT&T Unix, developed starting in the 1970s at the Bell Labs research center - [https://en.wikipedia.org/wiki/Unix](https://en.wikipedia.org/wiki/Unix)
 
@@ -67,6 +65,10 @@ Lets modify an environment variable in side your your `~/.bash_profile` (macOS) 
 
 	# Display present working directory and git path in bash prompt with colors
 	export PS1="\u \[\033[32m\]\w\[\033[33m\]\$(parse_git_branch)\[\033[00m\] $ "
+
+	# Color the output of `ls`
+	export CLICOLOR=1
+	export LSCOLORS=GxFxCxDxBxegedabagaced
 	```
 
 3. Close and reopen the terminal to see the change. Modifying the PS1 environment variable as you just did creates this nice prompt that tells you where you are as you move around directories:
@@ -165,7 +167,7 @@ Prepend any command with `sudo` in order to run the command as root user. Try to
 2. Open `sayhello.py` and type the following python program:
 
 	```python
-	#!/usr/bin/env python2
+	#!/usr/bin/env python3
 	import sys
 	name = sys.stdin.read()
 	print "Hello " + name + "!"
@@ -188,7 +190,7 @@ Prepend any command with `sudo` in order to run the command as root user. Try to
 This program below will add 1 to the input on STDIN.
 
 ```python
-#!/usr/bin/env python2
+#!/usr/bin/env python3
 import sys
 input_number = sys.stdin.read()
 print int(input_number) + 1

@@ -1,4 +1,4 @@
-# Command Line 1
+# Command Line: Intro
 
 ## Introduction
 
@@ -9,10 +9,10 @@ The Command Line Interface (CLI) is a way of interacting with your computer usin
 Once you become comfortable with the basics, it can be a more powerful way to use your computer. You're able to do many things more quickly and *programatically*. It is especially useful if you need to do something repetitively or in bulk.
 
 ### Example Use Cases
-- find all files in a folder that contain a phrase
-- rename several files at the same time
-- resize or crop several images or pdfs
-- download a list of urls
+- find all files in a folder that contain a phrase (`ag "the"`)
+- rename several files at the same time (`rename 's/^blah*/file/' *`)
+- download a list of urls (`cat urls.txt | xargs curl -O > /dev/null`)
+- resize or crop several images or pdfs (`convert -crop +100+10 in.jpg out.jpg`)
 
 ### Anatomy of a Command
 `<command> -<options> <arguments>`
@@ -173,7 +173,7 @@ Now that you have an understanding of option/flags vs. positional arguments, let
 	* print as much information as you can all at once using `uname`.
 5. print 'I did it. I'm so cool.' to the terminal using `echo`
 
-**Bonus** 
+**Bonus**
 
 1. print "I did it! I'm so cool!" (hint: google "escaping characters in bash")
 

@@ -1,4 +1,4 @@
-# Command Line 7: Review
+# Command Line: Review
 
 Review of command line material.
 
@@ -36,4 +36,3 @@ rm -ir <directory_path> # remove directory
 cp -v <source> <destination> # copy a file or directory
 mv <source> <destination> # move a file or directory
 ```
-

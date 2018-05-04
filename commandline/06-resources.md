@@ -1,4 +1,4 @@
-# Command Line 6
+# Command Line: Resources
 
 ## More Resources
 
@@ -27,4 +27,3 @@ https://github.com/ddopson/underscore-cli
 
 ## Credits
 some information sourced from: [https://github.com/AlJohri/DAT-DC-12/blob/master/notebooks/intro-command-line.ipynb](https://github.com/AlJohri/DAT-DC-12/blob/master/notebooks/intro-command-line.ipynb)
-
