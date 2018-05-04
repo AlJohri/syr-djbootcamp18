@@ -187,3 +187,12 @@ House Office Expenditure Data: https://projects.propublica.org/represent/expendi
     ```
     cat 2017Q2-house-disburse-detail.csv | grep -i technology | head -n 5 | slackcat --filename technology.csv -c scratchwork
     ```
+
+## ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example: create a file with all of 2017 data
+
+```
+curl -s "https://projects.propublica.org/congress/assets/staffers/2017Q1-house-disburse-detail.csv" > 2017.csv
+curl -s "https://projects.propublica.org/congress/assets/staffers/2017Q2-house-disburse-detail.csv" | tail -n +2 >> 2017.csv
+curl -s "https://projects.propublica.org/congress/assets/staffers/2017Q3-house-disburse-detail.csv" | tail -n +2 >> 2017.csv
+curl -s "https://projects.propublica.org/congress/assets/staffers/2017Q4-house-disburse-detail.csv" | tail -n +2 >> 2017.csv
+```
