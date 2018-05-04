@@ -45,18 +45,26 @@ refactoring (rewriting) existing code. Because git makes it easy to go back to a
 known good state, we can experiment without worrying that we'll be unable to
 undo the experimental work.
 
-## Git, for things other than code
+## Git (and GitHub), for things other than code
 * Auditing system for changes on a file
 * For collaboratively editing a text document
+* Open Journalism
+	* https://data.fivethirtyeight.com/
+	* https://www.datajournalismawards.org/project-listing/?project_id=2082
+	* 	https://github.com/showcases/open-journalism
 * [For drafting government web design standards!](https://github.com/18F/web-design-standards)
-* Open [comment period](https://github.com/whitehouse/source-code-policy/issues?q=is%3Aissue+is%3Aclosed) for policy
-* [Drafting](https://github.com/twitter/innovators-patent-agreement) and [collaborating on](https://github.com/twitter/innovators-patent-agreement/issues) legal documents
 * Design (image diff) 
 	* https://help.github.com/articles/rendering-and-diffing-images/
-* Open journalsim showcase
-	* 	https://github.com/showcases/open-journalism
+* Open [comment period](https://github.com/whitehouse/source-code-policy/issues?q=is%3Aissue+is%3Aclosed) for policy
+* [Drafting](https://github.com/twitter/innovators-patent-agreement) and [collaborating on](https://github.com/twitter/innovators-patent-agreement/issues) legal documents
 * Github for Government
 	* https://government.github.com/
 	* https://government.github.com/community/
-
-<!-- TODO: integrate stuff from intro.md -->
+* GitHub is also a very social place
+	* For making friends
+		* https://twitter.com/DataDhrumil/status/979039573090152448
+		* Also how I met several guest speakers for my course.
+	* For [finding sources](https://github.com/search?utf8=%E2%9C%93&q=onondaga&type=) ( just use the search features to find code, and code is written by people! )
+	* For [communicating with readers](https://github.com/fivethirtyeight/data/issues/85) - also so that others can [check your work](https://github.com/fivethirtyeight/data/issues?q=is%3Aissue+is%3Aclosed).
+	* For finding other people who have worked on a dataset and can help you understand it.
+	* For falling in love? ... maybe, i'm sure it must have happened.
