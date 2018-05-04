@@ -49,3 +49,9 @@
 	```
 	git push
 	```
+
+# Non-Linear Workflow
+
+We won't discuss the exact workflow here, but the non-linear workflow involves maintaining a "master branch", which is the main version of your project. Each feature is then developed in a "feature branch". Many people can have many different feature branches going on a project at the same time. 
+
+As work is completed, feature branches are merged into the master branch and any conflicts (for example if I make the background of our website blue in my branch but another team member makes it green in their branch) are resolved.
