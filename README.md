@@ -68,8 +68,15 @@
 	- How to find a data story
 	- How to select a visualization
 2. Scraping data
+	- download CSS selector gadget
+	- python examples
+	- importio, other chrome ext/tools
+	- distill.io
+	- demo the polls workflow
 3. How the internet works
-4. APIs
+4. APIs or open discussion or lab
+	- fec api
+	
 
 ## Final Project
 
