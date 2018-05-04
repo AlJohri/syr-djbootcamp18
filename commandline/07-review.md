@@ -1,6 +1,6 @@
 # Command Line: Review
 
-Review of command line material.
+We've gone over a lot. Here is what you need to remember for tomorrow. If you're confused, try doing the universe example again by yourself.
 
 #### General format for commands
 `<command> -<options> <arguments>`
