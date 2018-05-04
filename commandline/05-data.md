@@ -1,6 +1,6 @@
 # Command Line: Data Manipulation
 
-## curl
+## wget
 
 Download several files simultaneously. This command will download Q1-Q4 for each year out of 2014-2016
 
@@ -11,7 +11,7 @@ wget https://projects.propublica.org/congress/assets/staffers/201{4,5,6}Q{1,2,3,
 
 ## ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
 
-Modify the curl command above to download expenditures from each quarter of 2017.
+Modify the wget command above to download expenditures from each quarter of 2017.
 
 ## CSVKit, Sed, Awk
 
