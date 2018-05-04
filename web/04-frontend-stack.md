@@ -1,6 +1,6 @@
 # Web Dev Basics
 
-Today we're going to learn the basics of web development. Although you may not need to know how to develop websites from scratch these days to get content on the web, knowing how these tools work will:
+Today we're going to learn the basics of web development. Although you may not need to know how to develop websites from scratch these days to get content on the web (you can use squarespace, wordpress, medium, etc.), knowing how these tools work will:
 
 - help you better understand the web as a medium for publishing
 - help you learn how website are built in order to be able to extract data from them
@@ -12,16 +12,14 @@ Your objective after this technical bootcamp is over will be to add content to t
 
 ## HTML
 
-* Tutorial: [https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics
-)
+* Tutorial: https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics
 
 ## CSS
-* Tutorial: [https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics)
+* Tutorial: https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics
 
 ### Addendum: Attributes - Class vs ID
 
 The `class` and `id` attributes are particularly important. These are what the CSS is going to latch onto in order to identify which elements should receive the same styles, and they are what the JavaScript will latch onto in order to determine which element it should assign a behavior to.
-
 
 ## ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example
 
