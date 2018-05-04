@@ -1,10 +1,11 @@
-# syracuse-data-journalism-bootcamp-2018
+# syracuse data journalism bootcamp 2018
 
 *This page will constantly be updated.*
 
 - **Instructors**: [Dhrumil Mehta](https://www.linkedin.com/in/dhrumilmehta/) and [Al Johri](https://www.linkedin.com/in/AlJohri)
 - **Dates**: May 4 - May 6
 - **Slack**: https://djbootcamp18.slack.com/
+- **Repo**: https://git.io/vpV1H
 
 ## Day 0: Prework
 
