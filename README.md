@@ -35,32 +35,32 @@
 1. Introductions
 2. [Setup](./setup.md)
 3. Command Line
-	- [Intro](./commandline/01-intro.md)
-	- [Filesystem](./commandline/02-filesystem.md)
-	- [Redirection](./commandline/03-redirection.md)
-	- [Data](./commandline/04-data.md)
-	- [Unix Basics](./commandline/05-unix.md)
-	- [Resources](./commandline/06-resources.md)
-	- [Review](./commandline/07-resources.md)
+	- [Intro](./commandline/intro.md)
+	- [Filesystem](./commandline/filesystem.md)
+	- [Redirection](./commandline/redirection.md)
+	- [Data](./commandline/data.md)
+	- [Unix Basics](./commandline/unix.md)
+	- [Resources](./commandline/resources.md)
+	- [Review](./commandline/review.md)
 
 ## Day 2: Saturday, May 5 (9am-5pm)
 
 1. Git and GitHub
-	- [Intro](./git/01-intro.md)
-	- [Setup](./git/02-setup.md)
-	- [Encryption](./git/03-encryption.md)
-	- [Basics](./git/04-basics.md)
+	- [Intro](./git/intro.md)
+	- [Setup](./git/setup.md)
+	- [Encryption](./git/encryption.md)
+	- [Basics](./git/basics.md)
 
 2. Web Development
-	- [Web Dev Basics](./web/04-frontend-stack.md)
-	- [Visualizing Data](./web/05-visualization.md)
+	- [Web Dev Basics](./web/frontend-stack.md)
+	- [Visualizing Data](./web/visualization.md)
 
 3. Advanced Git [ if we get there ]
-	- [Branching](./git/05-branching.md)
-	- [Forking](./git/06-forking.md)
-	- [Reference](./git/07-reference.md)
-	- [Resources](./git/08-resources.md)
-	- [Diagram](./git/09-diagram.md)
+	- [Branching](./git/branching.md)
+	- [Forking](./git/forking.md)
+	- [Reference](./git/reference.md)
+	- [Resources](./git/resources.md)
+	- [Diagram](./git/diagram.md)
 
 ## Day 3: Sunday, May 6 (9am-5pm)
 
