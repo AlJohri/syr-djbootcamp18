@@ -44,23 +44,31 @@
 
 ## Day 2: Saturday, May 5 (9am-5pm)
 
-1. Git
+1. Git and GitHub
 	- [Intro](./git/01-intro.md)
 	- [Setup](./git/02-setup.md)
 	- [Encryption](./git/03-encryption.md)
 	- [Basics](./git/04-basics.md)
+
+2. Web Development
+	- [Web Dev Basics](./web/04-frontend-stack.md)
+	- [Visualizing Data](./web/05-visualization.md)
+
+3. Advanced Git [ if we get there ]
 	- [Branching](./git/05-branching.md)
 	- [Forking](./git/06-forking.md)
 	- [Reference](./git/07-reference.md)
 	- [Resources](./git/08-resources.md)
 	- [Diagram](./git/09-diagram.md)
-3. Website
 
 ## Day 3: Sunday, May 6 (9am-5pm)
 
-1. How the internet works
-2. Scraping data
-3. APIs
+1. Customizing your project
+	- How to find a data story
+	- How to select a visualization
+2. How the internet works
+3. Scraping data
+4. APIs
 
 ## Final Project
 
