@@ -46,6 +46,7 @@
 ## Day 2: Saturday, May 5 (9am-5pm)
 
 1. Intro to Git and GitHub
+	- [Intro](./git/01-intro.md)
 2. Simple workflow + exercises
 3. Building a website
 
