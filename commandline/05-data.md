@@ -15,6 +15,8 @@ Modify the wget command above to download expenditures from each quarter of 2017
 
 ## CSVKit, Sed, Awk
 
+⚠️ The Instructor will demo this part - Don't try it yourself...yet...
+
 For the future, there is CSVKit: [https://csvkit.readthedocs.io/en/1.0.1/](https://csvkit.readthedocs.io/en/1.0.1/). This program is its both a command line interface (CLI) and a python package. It helps parse CSVs cleanly.
 
 ```
