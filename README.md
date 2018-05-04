@@ -64,6 +64,7 @@
 ## Day 3: Sunday, May 6 (9am-5pm)
 
 1. Customizing your project
+	- [Data Stories](https://slides.com/dhrumilmehta/deck-dcee62b7-28ae-4199-8d47-4ceba73739aa-3#/)
 	- How to find a data story
 	- How to select a visualization
 2. How the internet works
