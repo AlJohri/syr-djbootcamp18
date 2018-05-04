@@ -44,10 +44,17 @@
 
 ## Day 2: Saturday, May 5 (9am-5pm)
 
-1. Intro to Git and GitHub
+1. Git
 	- [Intro](./git/01-intro.md)
-2. Simple workflow + exercises
-3. Building a website
+	- [Setup](./git/02-setup.md)
+	- [Encryption](./git/03-encryption.md)
+	- [Basics](./git/04-basics.md)
+	- [Branching](./git/05-branching.md)
+	- [Forking](./git/06-forking.md)
+	- [Reference](./git/07-reference.md)
+	- [Resources](./git/08-resources.md)
+	- [Diagram](./git/09-diagram.md)
+3. Website
 
 ## Day 3: Sunday, May 6 (9am-5pm)
 
