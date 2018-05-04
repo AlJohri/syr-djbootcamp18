@@ -67,8 +67,8 @@
 	- [Data Stories](https://slides.com/dhrumilmehta/deck-dcee62b7-28ae-4199-8d47-4ceba73739aa-3#/)
 	- How to find a data story
 	- How to select a visualization
-2. How the internet works
-3. Scraping data
+2. Scraping data
+3. How the internet works
 4. APIs
 
 ## Final Project
