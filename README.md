@@ -37,8 +37,8 @@
 	- [Intro](./commandline/01-intro.md)
 	- [Filesystem](./commandline/02-filesystem.md)
 	- [Redirection](./commandline/03-redirection.md)
-	- [Unix Basics](./commandline/04-unix.md)
-	- [Data](./commandline/05-data.md)
+	- [Data](./commandline/04-data.md)
+	- [Unix Basics](./commandline/05-unix.md)
 	- [Resources](./commandline/06-resources.md)
 	- [Review](./commandline/07-resources.md)
 
