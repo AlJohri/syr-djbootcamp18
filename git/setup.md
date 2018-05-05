@@ -15,7 +15,7 @@
 
 	- Otherwise, use these instructions for SSH access: Follow these instructions for connecting to Github via SSH. https://help.github.com/articles/connecting-to-github-with-ssh/
 
-	```
+	```bash
 	ls -al ~/.ssh/
 	```
 
