@@ -26,9 +26,19 @@ The `class` and `id` attributes are particularly important. These are what the C
 1. Lets put all the main content of the page within an `article` tag.
 
 ```html
-<article>
-	<!-- all the content -->
-</article>
+<html>
+
+<body>
+
+	<article>
+		<p>Lorem Ipsum....</p>
+		<!-- all the rest of the content -->
+	</article>
+
+</body>
+
+</html>
+
 ```
 
 2. Lets add a `header` with a byline and date at the top of the `article` tag.
