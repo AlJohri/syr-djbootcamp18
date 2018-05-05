@@ -9,17 +9,6 @@ Many Unix-like operating systems have arisen over the years, of which Linux is t
 * [https://en.wikipedia.org/wiki/History_of_Unix](https://en.wikipedia.org/wiki/History_of_Unix)
 * [http://www.howtogeek.com/182649/htg-explains-what-is-unix/](http://www.howtogeek.com/182649/htg-explains-what-is-unix/)
 
-## Operating System Concepts
-
-* Files and Processes
-	- Everything in UNIX is either a file or a process
-	- `ps aux` to see the processes that are running, same as opening the "activity monitor"
-	- [http://www.ee.surrey.ac.uk/Teaching/Unix/unixintro.html](http://www.ee.surrey.ac.uk/Teaching/Unix/unixintro.html)
-
-* Exploring the root directory (in case you're ever wondering what all those files in `/` are)
-	* [https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard](https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard)
-	* [http://www.thegeekstuff.com/2010/09/linux-file-system-structure/?utm_source=tuicool](http://www.thegeekstuff.com/2010/09/linux-file-system-structure/?utm_source=tuicool)
-
 ## Environment Variables and PATH
 
 #### Environment Variables
@@ -69,6 +58,12 @@ Lets modify an environment variable in side your your `~/.bash_profile` (macOS) 
 	# Color the output of `ls`
 	export CLICOLOR=1
 	export LSCOLORS=GxFxCxDxBxegedabagaced
+
+	# aliases
+	alias gst='git status'
+	alias cp='cp -irv'
+	alias mv='mv -iv'
+	alias rm='rm -iv'
 	```
 
 3. Close and reopen the terminal to see the change. Modifying the PS1 environment variable as you just did creates this nice prompt that tells you where you are as you move around directories:
@@ -76,35 +71,18 @@ Lets modify an environment variable in side your your `~/.bash_profile` (macOS) 
 
 4. Modify PS1 within the existing shell (instead of in the bashrc/bash_profile). Notice that since we didn't add this to the bashrc/bash_profile it doesn't persist when we open a new tab.
 
-## Stdin & Stdout (& Stderr)
-Originally I/O happened via a physically connected system console (input via keyboard, output via monitor), but standard streams abstract this. When a command is executed via an interactive shell, the streams are typically connected to the text terminal on which the shell is running, but can be changed with redirection, e.g. via a pipeline. - [https://en.wikipedia.org/wiki/Standard_streams](https://en.wikipedia.org/wiki/Standard_streams)
+## Operating System Concepts
 
-![](http://www.informit.com/content/images/chap5_9780133927313/elementLinks/05fig02.jpg)
+* Files and Processes
+	- Everything in UNIX is either a file or a process
+	- `ps aux` to see the processes that are running, same as opening the "activity monitor"
+	- [http://www.ee.surrey.ac.uk/Teaching/Unix/unixintro.html](http://www.ee.surrey.ac.uk/Teaching/Unix/unixintro.html)
 
-source: [http://www.informit.com/articles/article.aspx?p=2273593&seqNum=5](http://www.informit.com/articles/article.aspx?p=2273593&seqNum=5)
+* Exploring the root directory (in case you're ever wondering what all those files in `/` are)
+	* [https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard](https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard)
+	* [http://www.thegeekstuff.com/2010/09/linux-file-system-structure/?utm_source=tuicool](http://www.thegeekstuff.com/2010/09/linux-file-system-structure/?utm_source=tuicool)
 
-![](http://www.informit.com/content/images/chap5_9780133927313/elementLinks/05fig03.jpg)
-
-Figure 5-3 By default, standard input comes from the keyboard, and standard output goes to the screen
-
-source: [http://www.informit.com/articles/article.aspx?p=2273593&seqNum=5](http://www.informit.com/articles/article.aspx?p=2273593&seqNum=5)
-
-### Redirection
-![](http://www.informit.com/content/images/chap5_9780133927313/elementLinks/05fig04.jpg)
-
-Figure 5-4 Redirecting standard output
-
-`command [arguments] > filename`
-
-source: [http://www.informit.com/articles/article.aspx?p=2273593&seqNum=5](http://www.informit.com/articles/article.aspx?p=2273593&seqNum=5)
-
-### Piping
-
-![](https://www.evernote.com/shard/s150/sh/85196657-a9d4-4ae5-a212-225d6c51c14c/9afdbbe4f4da9789/res/57476e92-9833-4887-9e95-3f2644475598/skitch.png?resizeSmall&width=832)
-
-source: [https://en.wikipedia.org/wiki/Pipeline_(Unix)](https://en.wikipedia.org/wiki/Pipeline_(Unix))
-
-### and Exit Codes
+### Exit Codes
 
 Commands return exit codes when they finish running, `0`is success, `1` is fail
 
@@ -119,7 +97,6 @@ Error Codes other than 1 and 0 are more rare, but here are some examples: [http:
 Additional resource on exit codes:
 
 [http://bencane.com/2014/09/02/understanding-exit-codes-and-how-to-use-them-in-bash-scripts/](http://bencane.com/2014/09/02/understanding-exit-codes-and-how-to-use-them-in-bash-scripts/)
-
 
 ## Permissions and `chmod`
 

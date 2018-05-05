@@ -27,6 +27,7 @@ ls # list directory
 ```
 
 ### Files
+
 ```
 cat <filepath> # display contents of a file
 touch <filepath> # create file if it doesn't already exist
@@ -35,4 +36,13 @@ mkdir <directory_path> # make directory
 rm -ir <directory_path> # remove directory
 cp -v <source> <destination> # copy a file or directory
 mv <source> <destination> # move a file or directory
+```
+
+### Redirection and Piping
+
+```
+command > filename # redirect output into file
+command >> filename # redirect and append output into file
+
+command1 | command2 # pipe output of command 1 as input into command2
 ```

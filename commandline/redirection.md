@@ -2,6 +2,8 @@
 
 ##### Redirecting output to file: `>`
 
+![](http://www.informit.com/content/images/chap5_9780133927313/elementLinks/05fig04.jpg) [Source](http://www.informit.com/articles/article.aspx?p=2273593&seqNum=5)
+
 ```
 command > filename
 ```
@@ -17,6 +19,8 @@ command >> filename
 Takes the output of `command` and appends it to the end of the content of `filename`. This will create the file if it does not yet exist.
 
 ##### Piping: `|`
+
+![](https://www.evernote.com/shard/s150/sh/85196657-a9d4-4ae5-a212-225d6c51c14c/9afdbbe4f4da9789/res/57476e92-9833-4887-9e95-3f2644475598/skitch.png?resizeSmall&width=832) [Source](https://en.wikipedia.org/wiki/Pipeline_(Unix))
 
 ```
 command1 | command2
@@ -196,3 +200,17 @@ curl -s "https://projects.propublica.org/congress/assets/staffers/2017Q2-house-d
 curl -s "https://projects.propublica.org/congress/assets/staffers/2017Q3-house-disburse-detail.csv" | tail -n +2 >> 2017.csv
 curl -s "https://projects.propublica.org/congress/assets/staffers/2017Q4-house-disburse-detail.csv" | tail -n +2 >> 2017.csv
 ```
+
+## Stdin & Stdout (& Stderr)
+
+Originally I/O happened via a physically connected system console (input via keyboard, output via monitor), but standard streams abstract this. When a command is executed via an interactive shell, the streams are typically connected to the text terminal on which the shell is running, but can be changed with redirection, e.g. via a pipeline. - [https://en.wikipedia.org/wiki/Standard_streams](https://en.wikipedia.org/wiki/Standard_streams)
+
+![](http://www.informit.com/content/images/chap5_9780133927313/elementLinks/05fig02.jpg)
+
+source: [http://www.informit.com/articles/article.aspx?p=2273593&seqNum=5](http://www.informit.com/articles/article.aspx?p=2273593&seqNum=5)
+
+![](http://www.informit.com/content/images/chap5_9780133927313/elementLinks/05fig03.jpg)
+
+Figure 5-3 By default, standard input comes from the keyboard, and standard output goes to the screen
+
+source: [http://www.informit.com/articles/article.aspx?p=2273593&seqNum=5](http://www.informit.com/articles/article.aspx?p=2273593&seqNum=5)
