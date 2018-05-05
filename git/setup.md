@@ -2,34 +2,33 @@
 
 1. Install sourcetree via brew cask: `brew cask install sourcetree`
 
-1. Configure `git` with your name and email address. Be sure to use the same email associated with your Github account.
+2. Configure `git` with your name and email address. Be sure to use the same email associated with your Github account.
 
 	```
 	git config --global user.name "YOUR NAME"
 	git config --global user.email "YOUR EMAIL ADDRESS"
 	```
-
 2.
 
-	- If SSH isn't working, lets use this: https://help.github.com/articles/caching-your-github-password-in-git/
+    - If SSH isn't working, lets use this: https://help.github.com/articles/caching-your-github-password-in-git/
 
-	- Otherwise, use these instructions for SSH access: Follow these instructions for connecting to Github via SSH. https://help.github.com/articles/connecting-to-github-with-ssh/
+    - Otherwise, use these instructions for SSH access: Follow these instructions for connecting to Github via SSH. https://help.github.com/articles/connecting-to-github-with-ssh/
 
-	```bash
-	ls -al ~/.ssh/
-	```
+        ```bash
+        ls -al ~/.ssh/
+        ```
 
-	This is your **public key**
+        This is your **public key**
 
-	```
-	cat ~/.ssh/id_rsa.pub
-	```
+        ```bash
+        cat ~/.ssh/id_rsa.pub
+        ```
 
-	This is your **private key**
+        This is your **private key**
 
-	```
-	cat ~/.ssh/id_rsa
-	```
+        ```bash
+        cat ~/.ssh/id_rsa
+        ```
 
 ## What can you do with these?
 
