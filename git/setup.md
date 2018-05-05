@@ -1,5 +1,7 @@
 # Git: Setup
 
+1. Install sourcetree via brew cask: `brew cask install sourcetree`
+
 1. Configure `git` with your name and email address. Be sure to use the same email associated with your Github account.
 
 	```
