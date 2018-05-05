@@ -55,7 +55,6 @@ The `class` and `id` attributes are particularly important. These are what the C
 
 * Tutorial: [https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics) (do Hello World only)
 
-* You have done some javascript in your terminal window for homework (http://jsforcats.com/)
 * Introducing Alerts
 
 	```javascript
