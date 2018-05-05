@@ -92,10 +92,9 @@ git branch -d <branchname>
 	git branch
 	```
 
-5. Change the background in index.html.
+5. Change the background in style.css.
 
 	```
-	<style>
 	body {
 	    background-color: red;
 	}
