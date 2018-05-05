@@ -28,11 +28,6 @@ If you want to see the site rendered in your GitHub pages, go to Settings > GitH
 
 The short way to do this is to just make the changes directly in the GitHub web editor in the `your-username/mozilla-website` repository's `master` branch. 
 
-**Optional (make changes locally instead)**
-
-If you want to get some more practice with GitHub though, you can clone the repository locally onto your Desktop. Make the changes, commit them, and then push the new commits from your **local** `master` branch to your **remote** `master` branch in GitHub.
-
-![](images/screenshot_29.jpg)
 
 ### Step 3: Issue a pull request back to my repository
 
