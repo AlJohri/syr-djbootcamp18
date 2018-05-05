@@ -25,39 +25,41 @@ The `class` and `id` attributes are particularly important. These are what the C
 
 1. Lets put all the main content of the page within an `article` tag.
 
-```html
-<html>
+	```html
+	<!DOCTYPE html>
+	<html>
+	<head>
+	    <title></title>
+	</head>
+	<body>
 
-<body>
+		<article>
+			<p>Lorem Ipsum....</p>
+			<!-- all the rest of the content -->
+		</article>
 
-	<article>
-		<p>Lorem Ipsum....</p>
-		<!-- all the rest of the content -->
-	</article>
+	</body>
+	</html>
 
-</body>
-
-</html>
-
-```
+	```
 
 2. Lets add a `header` with a byline and date at the top of the `article` tag.
 
-```html
-<article>
+	```html
+	<article>
 
-	<header>
-		<h1 class="headline">My Awesome Article</h1>
-		<div class="byline">
-		    <address class="author">By <a rel="author" href="https://twitter.com/AlJohri">Al Johri</a></address> 
-		    on <time pubdate datetime="2018-05-05" title="May 5th, 2018">5/5/2018</time>
-		</div>
-	</header>
+		<header>
+			<h1 class="headline">My Awesome Article</h1>
+			<div class="byline">
+			    <address class="author">By <a rel="author" href="https://twitter.com/AlJohri">Al Johri</a></address> 
+			    on <time pubdate datetime="2018-05-05" title="May 5th, 2018">5/5/2018</time>
+			</div>
+		</header>
 
-	<!-- all the content -->
+		<!-- all the content -->
 
-</article>
-```
+	</article>
+	```
 
 3. Lets try this by adding a few more paragraphs of text. You can generate dummy text at https://www.lipsum.com/. 5 paragraphs should be enough.
 
