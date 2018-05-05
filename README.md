@@ -50,6 +50,7 @@
 	- [Setup](./git/setup.md)
 	- [Encryption](./git/encryption.md)
 	- [Basics](./git/basics.md)
+	- [Github](./git/github.md)
 
 2. Web Development
 	- [Web Dev Basics](./web/webdev.md)
