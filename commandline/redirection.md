@@ -2,7 +2,8 @@
 
 ##### Redirecting output to file: `>`
 
-![](http://www.informit.com/content/images/chap5_9780133927313/elementLinks/05fig04.jpg) [Source](http://www.informit.com/articles/article.aspx?p=2273593&seqNum=5)
+![](http://www.informit.com/content/images/chap5_9780133927313/elementLinks/05fig04.jpg)
+[Source](http://www.informit.com/articles/article.aspx?p=2273593&seqNum=5)
 
 ```
 command > filename
@@ -20,7 +21,8 @@ Takes the output of `command` and appends it to the end of the content of `filen
 
 ##### Piping: `|`
 
-![](https://www.evernote.com/shard/s150/sh/85196657-a9d4-4ae5-a212-225d6c51c14c/9afdbbe4f4da9789/res/57476e92-9833-4887-9e95-3f2644475598/skitch.png?resizeSmall&width=832) [Source](https://en.wikipedia.org/wiki/Pipeline_(Unix))
+![](https://www.evernote.com/shard/s150/sh/85196657-a9d4-4ae5-a212-225d6c51c14c/9afdbbe4f4da9789/res/57476e92-9833-4887-9e95-3f2644475598/skitch.png?resizeSmall&width=832)
+[Source](https://en.wikipedia.org/wiki/Pipeline_(Unix))
 
 ```
 command1 | command2
