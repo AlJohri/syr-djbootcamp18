@@ -61,3 +61,28 @@
 	Sublime Text 3 should open up.
 
 	Open `iTerm.app` from the Applications directory. We will now use this program instead of `Terminal.app`.
+
+5. Run `subl ~/.bash_profile`. It will open up Sublime Text. Copy the follow lines into the file and save and close.
+
+```bash
+# set EDITOR as sublime text
+export EDITOR="subl --wait"
+
+# Define a function that returns your current git branch
+parse_git_branch() {
+ git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
+}
+
+# Display present working directory and git path in bash prompt with colors
+export PS1="\u \[\033[32m\]\w\[\033[33m\]\$(parse_git_branch)\[\033[00m\] $ "
+
+# Color the output of `ls`
+export CLICOLOR=1
+export LSCOLORS=GxFxCxDxBxegedabagaced
+
+# aliases
+alias gst='git status'
+alias cp='cp -irv'
+alias mv='mv -iv'
+alias rm='rm -iv'
+```
