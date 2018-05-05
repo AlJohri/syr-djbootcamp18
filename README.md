@@ -52,7 +52,7 @@
 	- [Basics](./git/basics.md)
 
 2. Web Development
-	- [Web Dev Basics](./web/frontend-stack.md)
+	- [Web Dev Basics](./web/webdev.md)
 	- [Visualizing Data](./web/visualization.md)
 
 3. Advanced Git [ if we get there ]
