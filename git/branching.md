@@ -72,7 +72,7 @@ git branch -d <branchname>
 
 ## ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example
 
-1. `cd` into the universe repository (`~/Development/universe`).
+1. `cd` into the universe repository (`~/Development/data-story`).
 
 2. List the branches currently in the repository. It should just be `master` with an asterisk next to it showing that is the current active branch.
 
@@ -80,10 +80,10 @@ git branch -d <branchname>
 	git branch
 	```
 
-3. Let's create a new branch called `add-facts`.
+3. Let's create a new branch called `change-background`.
 
 	```
-	git checkout -b add-facts
+	git checkout -b change-background
 	```
 
 4. Run `git branch` to check that a new branch was created and it is the active branch. Your shell prompt (`PS1`) should also show the current active branch.
@@ -92,11 +92,13 @@ git branch -d <branchname>
 	git branch
 	```
 
-5. Add some facts to `sun.txt`.
+5. Change the background in index.html.
 
 	```
-	echo "One million Earths could fit inside the Sun." >> ~/Development/universe/solar_system/stars/sun.txt
-	echo "The Sun is an almost perfect sphere." >> ~/Development/universe/solar_system/stars/sun.txt
+	<style>
+	body {
+	    background-color: red;
+	}
 	```	
 
 6. Run `git diff` to see what has changed (what lines were added/deleted).
@@ -104,7 +106,7 @@ git branch -d <branchname>
 7. Commit the change.
 
 	```
-	git commit -m "add facts to sun.txt"
+	git commit -m "changed the background color of the page to red"
 	```
 
 8. Run `git status` to make sure the repository is "clean" (i.e. there are no "untracked files", "unstaged changes", or "staged changes").
@@ -123,15 +125,16 @@ git branch -d <branchname>
 12. Push the changes from the `add-facts` branch. You will run into an error asking you to set the "upstream" branch. Do what the instructions tell you to.
 
 	```
-	git checkout add-facts
+	git checkout change-background
 	git push
-	``` 
+	```
 
 13. Go to github.com and see the branch appear in the dropdown window. Click on it and then view the list of commits within this branch.
 
-14. Go to the pull requests tab and create a new pull request. Leave `base` as `master` and set the `compare` branch to your new `add-facts` branch. Give it a title and a description and create the pull request.
+14. Go to the pull requests tab and create a new pull request. Leave `base` as `master` and set the `compare` branch to your new `change-background` branch. Give it a title and a description and create the pull request.
 
 ![](https://i.imgur.com/XNmv1lk.png)
+Ignore the name of the branch and title in the screenshot above.
 
 15. Review the files changed and click the big green merge button on the bottom of the PR.
 
