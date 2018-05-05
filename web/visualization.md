@@ -63,38 +63,44 @@ What D3 is Not
 
 ## Getting Started
 
-Lets grab some code from a basic D3 visualization and get it up and running on a **separate page** on your website. We'll use this line chart to start with: https://bl.ocks.org/mbostock/3902569
+Lets grab some code from a basic D3 visualization and get it up and running on a **separate page** on your website. We'll use this bubble chart to start with: https://bl.ocks.org/AlJohri/4d684570a395ab00a94b86f27bd8ded4
 
 ### ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example - Part 1
 
-Lets create a new webpage (`chart.html`) with a D3 visualization in it.
-
-1. Create an empty flile called `chart.html` and one called `data.tsv` and open the folder with Sublime Text.
+1. Create an empty flile called `bubble.html` and one called `bubble-data.csv` and open the folder with Sublime Text in the `data-story` repo.
 
 	```
-	touch chart.html
-	touch data.tsv
+	cd ~/Development/data-story
+	touch bubble.html
+	touch bubble-data.csv
 	subl .
 	```
-2. Grab the code from the example block and put it in `chart.html`, grab the data and put it in `data.tsv`
- https://bl.ocks.org/mbostock/3902569
 
-3. Turn on your HTTP server
+2. Grab the code from the example block and put it in `bubble.html`, grab the data and put it in `bubble-data.csv`.
+ https://bl.ocks.org/AlJohri/4d684570a395ab00a94b86f27bd8ded4
+
+3. Turn on your HTTP server in the `data-story` directory.
 
 	```
 	python3 -m http.server
 	```
 
+	press CMD-D
+
+	```
+	open http://localhost:8000/bubble.html
+	```
+
 4. Once you're sure it works, lets commit and push that.
 
 	```
-	git commit -m "add a chart of apple stock prices"
+	git commit -m "add an example bubble chart"
 	git push
 	```
 
-# Splitting out HTML, CSS, JavaScript and Data Files
-The problem with this is that the HTML is ill-formed (there is no head and body). Also the CSS and the JavaScript is all in the same file as the HTML. Messy! I will demand that you always keep them separated for this class. Lets go ahead and do that.
+## Splitting out HTML, CSS, JavaScript and Data Files
 
+The problem with this is that the HTML is ill-formed (there is no head and body). Also the CSS and the JavaScript is all in the same file as the HTML. Messy! I will demand that you always keep them separated for this class. Lets go ahead and do that.
 
 Remember, a good HTML document has a head and body.
 
@@ -115,20 +121,21 @@ Remember, a good HTML document has a head and body.
 You can link a separate CSS file with the following code. Remember, linking CSS always happens in the **\<head> \</head>** of the document.
 
 ```html
-<link href="styles/style.css" rel="stylesheet" type="text/css">
+<link href="style.css" rel="stylesheet" type="text/css">
 ```
 
 You can call a JavaScript file like with this code. In this case we're linking one peice of code (the D3 library itself) from a website, and another peice of code (our specific chart) form a local file. Javascript is customarily placed at the end of the **\<body> \</body>** of the document. It is usually the last line before you close the body tag.
 
 ```html
-<script src="//d3js.org/d3.v3.min.js"></script>
-<script src="chart.js"></script>
+<script src="//d3js.org/d3.v4.min.js"></script>
+<script src="script.js"></script>
 ```
 
 ### ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example - Part 2
 
-1. Split out the JavaScript and CSS into separate files.
-2. Import those files into your HTML. Your `chart.html` might look something like this now.
+1. Split out the JavaScript into a separate file called `bubble.js`.
+2. Split out the CSS into separate file called `bubble.css`.
+3. Import those files into your HTML. Your `bubble.html` might look something like this now.
 
 	```html
 	<!DOCTYPE html>
@@ -137,7 +144,7 @@ You can call a JavaScript file like with this code. In this case we're linking o
 	<head>
 	  <title> Example Site </title>
 	  <!--Load StyleSheets in the head-->
-	  <link href="styles/style.css" rel="stylesheet" type="text/css">
+	  <link href="bubble.css" rel="stylesheet" type="text/css">
 	</head>
 
 	<body>
@@ -149,26 +156,18 @@ You can call a JavaScript file like with this code. In this case we're linking o
 		<h3> ...more than any other fruit-based corporation. </h3>
 
 		<!-- Run JavaScript scripts in the body -->
-		<script src="//d3js.org/d3.v3.min.js"></script>
-		<script src="chart.js"></script>
+		<script src="//d3js.org/d3.v4.min.js"></script>
+		<script src="bubble.js"></script>
 	</body>
 
 	</html>
 	```
 	
-## Lets move the chart into story
-
-Now we're going to delete `chart.html` and move the D3 visualization into your `index.html` file along with the rest of your story.
-
-### Avoiding Conflicting CSS
+## Avoiding Conflicting CSS
 
 Right now the chart works fine, however, that is because the chart is the only thing on the page. The CSS in these example D3 examples often assume the D3 is the only thing on the page. So if there were other things on the page, the CSS might also end up applying to those things as well! To avoid that, we must specify that the CSS only apply to the chart. Lets modify the CSS selectors to do just that.
 
-### ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example - Part 3 (simple)
-
-Since the chart is the only `<svg>` element on the page, we can just append an `svg` element selector to the front of all the CSS specific to the chart to make sure it doesn't apply the CSS to elements outside the SVG.
-
-## Using `id` and `class` tags Properly
+### Using `id` and `class` tags Properly
 
 But what if we want to have two charts on the page? And they're both SVGs! In that case each chart would need a unique `id` attribute. To do this we'll need to modify the d3 block.
 
@@ -185,56 +184,66 @@ Notice how that code is adding a width and a height attribute? We can add an id 
 ```javascript
 var svg = d3.select("body").append("svg")
     .attr("width", width + margin.left + margin.right)
-    .attr("class", "chart")
-    .attr("id", "apple-stock-chart")
+    .attr("class", "chart bubble-chart")
+    .attr("id", "dummy-bubble-chart")
     .attr("height", height + margin.top + margin.bottom)
 ```
 
-Now it will generate the chart with `id=apple-stock-chart` and `class=chart`. This allows us to:
+Now it will generate the chart with `id=dummy-bubble-chart` and `class=chart bubble-chart`. This allows us to:
 
-1. Modify the CSS so that it applies only to this one chart using an id-selector (`#apple-stock-chart`)
+1. Modify the CSS so that it applies only to this one chart using an id-selector (`#dummy-bubble-chart`)
 
-2. Modify some CSS so that it applies to all charts using a class-selector (`.chart`)
+2. Modify some CSS so that it applies to all bubble charts using a class-selector (`.bubble-chart`)
+
+3. Modify some CSS so that it applies to all charts using a class-selector (`.chart`)
 
 This is useful for standardizing styles across the site and giving everything a common look and feel with specific customization for a chart where needed.
 
-### ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example - Part 3 (advanced)
+## Working with divs
 
-1. Modify the D3 for the chart so that it appends a `class=chart` and `id=apple-stock-chart` when it generates the chart.
-2. Modify the CSS so that it applies only to the `apple-stock-chart` and doesn't spill over to any other charts that may be on the page.
+Notice that d3 appends the visualization (support vector graphic) SVG to the body element, but we want to insert it into a specific part of the page. To do that, we use a `div` element.
 
+We now change the following line of code from:
 
-## ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
+```javascript
+var svg = d3.select("body").append("svg")
+```
 
-Lets take your line chart and append it to the bottom of your Mozilla Webpage.
+to:
 
-1. Go to your mozilla website on your computer and make sure you're in the master branch.
+```javascript
+var svg = d3.select("#dummy-bubble-chart-container").append("svg")
+```
 
+where `#dummy-bubble-chart-container` refers to a div that we must insert into the HTML.
+
+```
+<div id="dummy-bubble-chart-container"></div>
+```
+
+## Lets move the chart into story
+
+Now we're going to delete `bubble.html` and move the D3 visualization into your `index.html` file along with the rest of your story.
+
+1. Create a `div` that will host the chart in the middle of the "lorem ipsum" text with an id of `#dummy-bubble-chart-container`.
+2. Add a line to the bottom of the `head` tag to load `bubble.css`. Remember! CSS is ultimately compiled into one big file, so make sure that the css selectors for the chart match **only** that chart.
+4. Add the lines to the bottom of the `body` tag to load the javascript:
+
+	```html
+	<script src="//d3js.org/d3.v4.min.js"></script>
+	<script src="bubble.js"></script>
 	```
-	cd ~/Development/mozilla-website
-	git checkout master
-	git pull
-	```
 
-2. Create a new branch called `add-chart`
-
-	```
-	git checkout -b add-chart
-	```
-3. Get the chart to appear at the bottom of the Mozilla website. Make sure none of the CSS syles for the chart spill over into the rest of the webpage!
-
-4. Go to GitHub and issue a pull request. Merge that branch back into master. View the website online.
-
+5. Delete `bubble.html`.
 
 ## Note
 
-Some of these pre-created D3 visualizations take in CSV format (like the simple example that we did above). Others take in a JSON format. We will be a good chunk of tomorrow practicing conversions between CSV and JSON formats using python, which will hopefully open up for your project
+Some of these pre-created D3 visualizations take in CSV format (like the simple example that we did above). Others take in a JSON format. Once you learn how to use both formats effectively, you can use:
 
   1. any D3 visualization that takes input as CSV or JSON (most of them)
   2. any data source that outputs data as CSV or JSON (including APIs which often serve JSON files)
 
-If you find that you want to use a data visualization, but are not sure how to connect the dataset to the visualization, have someone in your project group chat with me, I'm happy to help you learn how to connect any particular visualization to any particular dataset (JSON or CSV).
-
+If you find that you want to use a data visualization, but are not sure how to connect the dataset to the visualization, slack me, I'm happy to help you learn how to connect any particular visualization to any particular dataset (JSON or CSV).
 
 ## Organizing your Code
 

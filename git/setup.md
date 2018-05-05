@@ -9,29 +9,27 @@
 	git config --global user.email "YOUR EMAIL ADDRESS"
 	```
 
-2. First lets see if you already have SSH keys setup
+2.
 
-Follow these instructions for connecting to Github via SSH.
+	- If SSH isn't working, lets use this: https://help.github.com/articles/caching-your-github-password-in-git/
 
-https://help.github.com/articles/connecting-to-github-with-ssh/
+	- Otherwise, use these instructions for SSH access: Follow these instructions for connecting to Github via SSH. https://help.github.com/articles/connecting-to-github-with-ssh/
 
-## Lets see what we've just done
+	```
+	ls -al ~/.ssh/
+	```
 
-```
-ls -al ~/.ssh/
-```
+	This is your **public key**
 
-This is your **public key**
+	```
+	cat ~/.ssh/id_rsa.pub
+	```
 
-```
-cat ~/.ssh/id_rsa.pub
-```
+	This is your **private key**
 
-This is your **private key**
-
-```
-cat ~/.ssh/id_rsa
-```
+	```
+	cat ~/.ssh/id_rsa
+	```
 
 ## What can you do with these?
 
