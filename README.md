@@ -1,5 +1,7 @@
 # syracuse data journalism bootcamp 2018
 
+peekaboo! 👻
+
 *This page will constantly be updated.*
 
 - **Instructors**: [Dhrumil Mehta](https://www.linkedin.com/in/dhrumilmehta/) and [Al Johri](https://www.linkedin.com/in/AlJohri)
