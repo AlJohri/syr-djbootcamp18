@@ -58,10 +58,12 @@
 
 3. Advanced Git [ if we get there ]
 	- [Branching](./git/branching.md)
-	- [Forking](./git/forking.md)
-	- [Reference](./git/reference.md)
-	- [Resources](./git/resources.md)
-	- [Diagram](./git/diagram.md)
+	- [Forking Simple](./git/forking-simple.md)
+	- [FiveThirtyEight](./git/fivethirtyeight.md)
+
+- [Reference](./git/reference.md)
+- [Resources](./git/resources.md)
+- [Diagram](./git/diagram.md)
 
 ## Day 3: Sunday, May 6 (9am-5pm)
 
