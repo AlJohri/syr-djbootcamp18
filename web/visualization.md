@@ -6,6 +6,32 @@ Slides from Julia Wolfe - Visual Journalist @ FiveThirtyEight
 - Part 1 https://docs.google.com/presentation/d/1-NPLxkrjyuIPwSwqELDxkxphZVyRp2KNkmKLzOgIF7s/edit#slide=id.p
 - Part 2 https://docs.google.com/presentation/d/1G_oIaChf91reAJAEoaQEXrd7N5oFaAaN67jJGuQa16o/edit#slide=id.p
 
+## Charts tell a story
+
+- Note what makes a good "hed" and "dek" for a chart - many of these charts tell a story by themselves.
+- Note the use of "heiarchy" - where do your eyes go and what does the reader take away on first glance? On closer inspection? 
+
+Some of our daily charts from stories I've worked on:
+- https://fivethirtyeight.com/features/the-art-of-cherry-picking-polls/
+- https://fivethirtyeight.com/features/republicans-cant-depend-on-minority-candidates-to-win-minority-votes/
+- https://fivethirtyeight.com/features/where-trump-got-his-edge/
+- https://fivethirtyeight.com/features/trump-isnt-tweeting-about-the-polls-anymore/
+- https://fivethirtyeight.com/features/the-media-really-has-neglected-puerto-rico/
+- https://fivethirtyeight.com/features/all-the-cable-news-networks-are-covering-the-russia-story-just-not-the-same-one/
+- https://fivethirtyeight.com/features/how-much-the-polls-missed-by-in-every-state/
+
+An interesting example:
+- https://fivethirtyeight.com/features/how-a-warm-winter-destroyed-85-percent-of-georgias-peaches/
+
+Some better examples from my colleagues on the visuals team:
+- https://fivethirtyeight.com/features/what-lies-in-irmas-path/
+- https://fivethirtyeight.com/features/hurricane-harveys-impact-and-how-it-compares-to-other-storms/
+- https://fivethirtyeight.com/features/how-americans-order-their-steak/
+- https://fivethirtyeight.com/features/gun-laws-stop-at-state-lines-but-guns-dont/
+- https://fivethirtyeight.com/features/every-color-of-every-lightsaber-in-star-wars-in-one-chart/
+- https://fivethirtyeight.com/features/this-was-the-slowest-boston-marathon-since-the-1970s/
+- https://fivethirtyeight.com/features/20-years-of-congresss-budget-procrastination-in-one-chart/
+
 ## D3 JS (Data Driven Documents)
 D3 JS
 
