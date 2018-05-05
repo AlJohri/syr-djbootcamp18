@@ -34,8 +34,7 @@ Within a Repository you have
 
 ## Github
 
-* Your Github Page
-* Social Features
+**GitHub** is a place where you can host **Git** repositories. It is however not the only place to store Git repositories, you can do that locally on your computer, or on one of GitHub's competitors like BitBucket, AWS CodeCommit, GitLab and others. GitHub is one of the most popular social platforms for storing and discussing open source code. Students can also get free private repositories (but we encourage open-ness!).
 
 #### Key Terms
 * **github** - a service that hosts git remote repositories, and provides a web app to interact / collaborate on them
