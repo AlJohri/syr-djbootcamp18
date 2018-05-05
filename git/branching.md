@@ -72,7 +72,7 @@ git branch -d <branchname>
 
 ## ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example
 
-1. `cd` into the universe repository (`~/Development/data-story`).
+1. `cd` into the `data-story` repository (`~/Development/data-story`).
 
 2. List the branches currently in the repository. It should just be `master` with an asterisk next to it showing that is the current active branch.
 
