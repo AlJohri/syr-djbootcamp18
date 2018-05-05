@@ -69,23 +69,23 @@ Lets grab some code from a basic D3 visualization and get it up and running on a
 
 Lets create a new webpage (`chart.html`) with a D3 visualization in it.
 
-3. Create an empty flile called `chart.html` and one called `data.tsv` and open the folder with Sublime Text.
+1. Create an empty flile called `chart.html` and one called `data.tsv` and open the folder with Sublime Text.
 
 	```
 	touch chart.html
 	touch data.tsv
 	subl .
 	```
-4. Grab the code from the example block and put it in `chart.html`, grab the data and put it in `data.tsv`
+2. Grab the code from the example block and put it in `chart.html`, grab the data and put it in `data.tsv`
  https://bl.ocks.org/mbostock/3902569
 
-5. Turn on your HTTP server
+3. Turn on your HTTP server
 
 	```
 	python3 -m http.server
 	```
 
-6. Once you're sure it works, lets commit and push that.
+4. Once you're sure it works, lets commit and push that.
 
 	```
 	git commit -m "add a chart of apple stock prices"
