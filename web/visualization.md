@@ -1,5 +1,11 @@
 # Visualizing Data
 
+## Lets talk about charts
+
+Slides from Julia Wolfe - Visual Journalist @ FiveThirtyEight
+- Part 1 https://docs.google.com/presentation/d/1-NPLxkrjyuIPwSwqELDxkxphZVyRp2KNkmKLzOgIF7s/edit#slide=id.p
+- Part 2 https://docs.google.com/presentation/d/1G_oIaChf91reAJAEoaQEXrd7N5oFaAaN67jJGuQa16o/edit#slide=id.p
+
 ## D3 JS (Data Driven Documents)
 D3 JS
 
@@ -12,8 +18,22 @@ Grammar of Graphics
 
 What D3 is Not
 
-* [http://ruoyusun.com/2014/05/26/what-d3js-is-not.html](http://ruoyusun.com/2014/05/26/what-d3js-is-not.html
-)
+* [http://ruoyusun.com/2014/05/26/what-d3js-is-not.html](http://ruoyusun.com/2014/05/26/what-d3js-is-not.html)
+
+### D3 Chart Examples
+
+- http://bl.ocks.org/mbostock (Mike Bostock created D3JS, these are his examples)
+- http://bl.ocks.org/ (same website, examples by different people)
+- https://d3js.org/
+- http://christopheviau.com/d3list/gallery.html
+- https://github.com/d3/d3/wiki/Gallery
+
+### How to select a chart type
+
+* Financial Times Visual Vocabulary
+	- https://github.com/ft-interactive/chart-doctor/blob/master/visual-vocabulary/poster.png
+* Financial Times "chart doctor"
+	- https://www.ft.com/chart-doctor
 
 ## Getting Started
 
