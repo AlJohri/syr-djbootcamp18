@@ -85,6 +85,16 @@ This command looks for each row that has the "HON. JOHN CONYERS, JR." as the OFF
 curl -s "https://projects.propublica.org/congress/assets/staffers/2015Q4-house-disburse-detail.csv" | csvgrep -c "OFFICE" -m "HON. JOHN CONYERS, JR."
 ```
 
+### csvkit: csvsql
+
+Similar to using `csvgrep`, we can do the same thing using `csvsql`. We can put any arbitrary SQL expression here so a lot more powerful than csvgrep. For example we can filter by multiple columns or group by a column.
+
+```
+cd ~/Development/house-expenditure
+curl -O https://projects.propublica.org/congress/assets/staffers/2015Q4-house-disburse-detail.csv
+csvsql -v --table tbl --no-inference --no-constraints --query "SELECT * FROM tbl WHERE OFFICE='HON. JOHN CONYERS, JR.'" 2015Q4-house-disburse-detail.csv
+```
+
 ### csvkit: csvcut
 
 csvcut allows one to get a specific column(s) from a csv

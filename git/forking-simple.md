@@ -1,4 +1,14 @@
-# Open Source (and forking)
+# Forking and Open Source
+
+## Key Terms
+
+* **fork** - make a copy of a remote repo on GitHub from one account to another.
+* **pull request** - ask the upstream maintainer to pull in changes from origin.
+* **upstream** - the name for a remote read-only repository
+* **origin** - the name for a remote read-and-write repository
+
+## A Typical Setup for Forked Code
+![](https://s3.amazonaws.com/media-p.slid.es/uploads/489063/images/2498675/pasted-from-clipboard.png)
 
 ## Branching vs Forking
 
@@ -6,7 +16,7 @@
 * **Forking** is a feature of GitHub
 	* 	A fork is a personal copy of another user's repository that lives on your account. Forks allow you to freely make changes to a project without affecting the original. Forks remain attached to the original, allowing you to submit a pull request to the original's author to update with your changes. You can also keep your fork up to date by pulling in updates from the original. - [GitHub Glossary](https://help.github.com/articles/github-glossary/)
 	*  When you fork a repository, you get all of the branches the other person posted on GitHub
-	*  Pull requests however, don't acknowledge forks since they are a feature of GitHub and not Git
+	*  Pull requests are from one branch to another- whether that's branches in the same repository or branches across repositories (forks). So while you can colloquially say "I'm issuing a pull request from my fork to yours", really what you're saying is "I'm issuing a pull request from the master branch of my fork to the master branch of your fork". You can actually issue a pull request from any branch in your forked repository to any branch in the original repository.
 
 ### Step 1: Fork a copy of my `mozilla-website` repository into your own account!
 
@@ -58,3 +68,12 @@ Open source collaboration is great for:
 * [Feuding](https://github.com/jashkenas/underscore/issues/2182)
 * [Philosophical](https://www.gnu.org/philosophy/shouldbefree.en.html) [Reasons](https://www.gnu.org/philosophy/open-source-misses-the-point.en.html)
 * Being [nerdy](https://github.com/fivethirtyeight/data/pull/63)?
+
+More Links
+
+- https://government.github.com/
+- https://government.github.com/community/
+
+## ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
+
+Make an issue on my simple-website repository: https://github.com/dmil/simple-website

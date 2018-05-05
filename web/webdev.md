@@ -23,11 +23,37 @@ The `class` and `id` attributes are particularly important. These are what the C
 
 ## ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example
 
-1. Lets try this by adding a few more paragraphs of text. You can generate dummy text at https://www.lipsum.com/. 5 paragraphs should be enough.
+1. Lets put all the main content of the page within an `article` tag.
 
-2. Lets put each one of the paragraphs in a pararaph tag.
+```html
+<article>
+	<!-- all the content -->
+</article>
+```
 
-3. Between the paragraphs of lorem ipsum, lets add some more paragraph tags, but lets make these what we'd call a pullquote. Notice that the paragraphs that are quotes have an attribute `class=quote` and the first one has an attribute `id=mainquote`.
+2. Lets add a `header` with a byline and date at the top of the `article` tag.
+
+```html
+<article>
+
+	<header>
+		<h1 class="headline">My Awesome Article</h1>
+		<div class="byline">
+		    <address class="author">By <a rel="author" href="https://twitter.com/AlJohri">Al Johri</a></address> 
+		    on <time pubdate datetime="2018-05-05" title="May 5th, 2018">5/5/2018</time>
+		</div>
+	</header>
+
+	<!-- all the content -->
+
+</article>
+```
+
+3. Lets try this by adding a few more paragraphs of text. You can generate dummy text at https://www.lipsum.com/. 5 paragraphs should be enough.
+
+4. Lets put each one of the paragraphs in a pararaph tag.
+
+5. Between the paragraphs of lorem ipsum, lets add some more paragraph tags, but lets make these what we'd call a pullquote. Notice that the paragraphs that are quotes have an attribute `class=quote` and the first one has an attribute `id=mainquote`.
 
 	
 	```html
@@ -55,7 +81,6 @@ The `class` and `id` attributes are particularly important. These are what the C
 
 * Tutorial: [https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics) (do Hello World only)
 
-* You have done some javascript in your terminal window for homework (http://jsforcats.com/)
 * Introducing Alerts
 
 	```javascript
@@ -92,6 +117,7 @@ Make those into one button that toggles show/hide of the fox
 
 There are lots of tools online to help you select a color pallate:
 
+* https://color.adobe.com/
 * https://www.google.com/search?q=css+color+palette&spell=1&sa=X&ved=0ahUKEwiWg_fZ28bYAhXHzIMKHVDICKoQvwUIJigA&biw=834&bih=639
 * https://www.w3schools.com/colors/colors_picker.asp
 

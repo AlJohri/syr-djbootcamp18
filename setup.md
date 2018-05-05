@@ -30,8 +30,8 @@
 	brew update
 	brew upgrade
 	brew cleanup
-	brew install python tree wget
-	brew cask install sublime-text iterm2
+	brew install python tree wget jq pup
+	brew cask install sublime-text iterm2 sourcetree
 	pip3 install requests bs4 csvkit
 	```
 
