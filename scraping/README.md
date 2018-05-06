@@ -75,6 +75,43 @@ for item in table.cssselect("tbody > tr.item"):
     writer.writerow([rank, title, margin])
 ```
 
+#### bioguide (http://bioguide.congress.gov/biosearch/biosearch.asp)
+
+```python
+#!/usr/bin/env python3
+
+import sys
+import csv
+import requests
+import lxml.html
+
+response = requests.post("http://bioguide.congress.gov/biosearch/biosearch1.asp", 
+    data={"congress": "2018"})
+doc = lxml.html.fromstring(response.content)
+
+writer = csv.writer(sys.stdout)
+
+for tr in doc.cssselect("center table tr"):
+    if len(tr.cssselect('th')) > 0: continue
+
+    cols = tr.cssselect("td")
+
+    # only take first row of each legislator, not additional terms
+    if not cols[0].cssselect("a"): continue 
+
+    name = cols[0].cssselect("a")[0].text
+    birth_death = cols[1].text.replace('\xa0', '')
+    position = cols[2].text
+    party = cols[3].text
+    state = cols[4].text
+    congress = cols[5].text
+    years = cols[5].cssselect('br')[0].tail.replace('(', '').replace(')', '')
+
+    writer.writerow([name, birth_death, position, party, state, congress, years])
+```
+
+see [bioguide-complex.py](./bioguide-complex.py) for getting additional terms
+
 ## scraping using [import.io](https://import.io/)
 
 ## scraping using [`pup`](https://github.com/ericchiang/pup)

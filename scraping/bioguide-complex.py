@@ -4,15 +4,17 @@ import json
 import requests
 import lxml.html
 
-response = requests.post("http://bioguide.congress.gov/biosearch/biosearch1.asp", data={"congress": 2018})
+response = requests.post("http://bioguide.congress.gov/biosearch/biosearch1.asp", 
+	data={"position": "Representative", "state": "NY"})
 doc = lxml.html.fromstring(response.content)
 
 legislators = []
 current_legislator = None
 
 for tr in doc.cssselect("center table tr"):
+	if len(tr.cssselect('th')) > 0: continue
+	
 	cols = tr.cssselect("td")
-	if not cols: continue
 
 	if cols[0].cssselect("a"):
 
