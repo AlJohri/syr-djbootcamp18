@@ -12,6 +12,7 @@ Slides from Julia Wolfe - Visual Journalist @ FiveThirtyEight
 - Note the use of "heiarchy" - where do your eyes go and what does the reader take away on first glance? On closer inspection? 
 
 Some of our daily charts from stories I've worked on:
+
 - https://fivethirtyeight.com/features/the-art-of-cherry-picking-polls/
 - https://fivethirtyeight.com/features/republicans-cant-depend-on-minority-candidates-to-win-minority-votes/
 - https://fivethirtyeight.com/features/where-trump-got-his-edge/
@@ -21,9 +22,11 @@ Some of our daily charts from stories I've worked on:
 - https://fivethirtyeight.com/features/how-much-the-polls-missed-by-in-every-state/
 
 An interesting example:
+
 - https://fivethirtyeight.com/features/how-a-warm-winter-destroyed-85-percent-of-georgias-peaches/
 
 Some better examples from my colleagues on the visuals team:
+
 - https://fivethirtyeight.com/features/what-lies-in-irmas-path/
 - https://fivethirtyeight.com/features/hurricane-harveys-impact-and-how-it-compares-to-other-storms/
 - https://fivethirtyeight.com/features/how-americans-order-their-steak/
@@ -35,16 +38,16 @@ Some better examples from my colleagues on the visuals team:
 ## D3 JS (Data Driven Documents)
 D3 JS
 
-* [https://d3js.org/](https://d3js.org/)
-* [https://github.com/d3/d3/wiki/Gallery](https://github.com/d3/d3/wiki/Gallery)
+* https://d3js.org/
+* https://github.com/d3/d3/wiki/Gallery
 
 Grammar of Graphics
 
-* [https://www.amazon.com/Grammar-Graphics-Statistics-Computing/dp/0387245448](https://www.amazon.com/Grammar-Graphics-Statistics-Computing/dp/0387245448)
+* https://www.amazon.com/Grammar-Graphics-Statistics-Computing/dp/0387245448
 
 What D3 is Not
 
-* [http://ruoyusun.com/2014/05/26/what-d3js-is-not.html](http://ruoyusun.com/2014/05/26/what-d3js-is-not.html)
+* http://ruoyusun.com/2014/05/26/what-d3js-is-not.html
 
 ### D3 Chart Examples
 

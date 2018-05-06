@@ -56,34 +56,29 @@ peekaboo! 👻
 
 2. Web Development
 	- [Web Dev Basics](./web/webdev.md)
-	- [Visualizing Data](./web/visualization.md)
 
-3. Advanced Git [ if we get there ]
+3. Advanced Git
 	- [Branching](./git/branching.md)
 	- [Forking Simple](./git/forking-simple.md)
 	- [FiveThirtyEight](./git/fivethirtyeight.md)
 
-- [Reference](./git/reference.md)
-- [Resources](./git/resources.md)
-- [Diagram](./git/diagram.md)
+4. Git Resources
+	- [Reference](./git/reference.md)
+	- [Resources](./git/resources.md)
+	- [Diagram](./git/diagram.md)
 
 ## Day 3: Sunday, May 6 (9am-5pm)
 
 1. Customizing your project
 	- [Data Stories](https://slides.com/dhrumilmehta/deck-dcee62b7-28ae-4199-8d47-4ceba73739aa-3#/)
-	- How to find a data story
-	- How to select a visualization
-2. Scraping data
-	- download CSS selector gadget
-	- python examples
-	- importio, other chrome ext/tools
-	- distill.io
-	- demo the polls workflow
-3. How the internet works
-4. APIs or open discussion or lab
-	- fec api
+	- [Visualizing Data](./web/visualization.md)
+2. Exploratory Data Visualization
+3. [Upacking Websites & Hunting for Data](web/webdata.md)
+4. [Scraping data](./scraping.md)
+5. APIs
+6. [Regex](regex/README.md) [optional]
+7. Q & A + Project Time
 	
-
 ## Final Project
 
 For your final project, you will create a simple website with a d3 visualization using the House Office Expenditure Data. You'll select a meaningful subset of the data and write an article to accompany the viz.
