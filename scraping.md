@@ -59,9 +59,9 @@ doc = lxml.html.fromstring(response.content)
 writer = csv.writer(sys.stdout)
 
 for el in doc.cssselect("ol.stream-items > li.stream-item"):
-	id = el.get('data-item-id')
-	text = el.cssselect('.tweet-text')[0].text_content().strip()
-	writer.writerow([id, text])
+    id = el.get('data-item-id')
+    text = el.cssselect('.tweet-text')[0].text_content().strip()
+    writer.writerow([id, text])
 ```
 
 #### songmeanings (http://songmeanings.com/popular/lyrics/?chart=2018-05-04)
