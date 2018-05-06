@@ -30,6 +30,13 @@ for tr in doc.cssselect('.lister-list tr'):
     writer.writerow([id, title, rating])
 ```
 
+### ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
+
+Modify the script above to get the
+
+1) year each movie was made and
+2) the number of users that rated the movie
+
 #### twitter (https://twitter.com/DataDhrumil)
 
 ```python
@@ -71,9 +78,12 @@ for item in table.cssselect("tbody > tr.item"):
     cells = item.getchildren()
     rank = cells[0].text_content().strip()
     title = cells[1].text_content().strip()
-    margin = cells[2].text_content().strip()
-    writer.writerow([rank, title, margin])
+    writer.writerow([rank, title])
 ```
+
+### ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
+
+Modify the script above to get the delta +/- for each song and write the output
 
 #### bioguide (http://bioguide.congress.gov/biosearch/biosearch.asp)
 
