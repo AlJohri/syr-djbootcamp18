@@ -74,7 +74,7 @@ peekaboo! 👻
 	- [Visualizing Data](./web/visualization.md)
 2. [Exploratory Data Visualization](https://github.com/AlJohri/bubble-chart)
 3. [Upacking Websites & Hunting for Data](web/webdata.md)
-4. [Scraping data](./scraping.md)
+4. [Scraping data](./scraping/README.md)
 5. APIs
 6. [Regex](regex/README.md) [optional]
 7. Q & A + Project Time
