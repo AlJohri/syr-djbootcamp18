@@ -72,7 +72,7 @@ peekaboo! 👻
 1. Customizing your project
 	- [Data Stories](https://slides.com/dhrumilmehta/deck-dcee62b7-28ae-4199-8d47-4ceba73739aa-3#/)
 	- [Visualizing Data](./web/visualization.md)
-2. Exploratory Data Visualization
+2. [Exploratory Data Visualization](https://github.com/AlJohri/bubble-chart)
 3. [Upacking Websites & Hunting for Data](web/webdata.md)
 4. [Scraping data](./scraping.md)
 5. APIs
