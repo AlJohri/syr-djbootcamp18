@@ -22,7 +22,7 @@
 
 This
 
-https://github.com/`dmil`/mozilla-website
+https://github.com/dmil/mozilla-website
 
 will fork to 
 
