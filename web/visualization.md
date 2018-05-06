@@ -148,12 +148,9 @@ You can call a JavaScript file like with this code. In this case we're linking o
 	</head>
 
 	<body>
-		<h1> Apple: The Profitable Fruit </h1>
+		<h1> my bubble chart </h1>
 
-		<p> If you bought apple stock a long time ago you're probably rich. That's because it went up really fast! See for yourself in the chart below. </p>
-
-		<h2> Apple Stocks are Really Rising! </h2>
-		<h3> ...more than any other fruit-based corporation. </h3>
+		<p> bubble bubble bubble </p>
 
 		<!-- Run JavaScript scripts in the body -->
 		<script src="//d3js.org/d3.v4.min.js"></script>
