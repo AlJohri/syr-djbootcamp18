@@ -50,7 +50,7 @@ Simple website code: [https://github.com/dmil/simple-website](https://github.com
 Uniform Resource Locator (Uniform Resource Identifier)
 
 [What is a URL](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_URL) | [Anatomy of a URL](https://doepud.co.uk/blog/anatomy-of-a-url)
-![](assets/images/url.png)
+![](url.png)
 source: https://code.tutsplus.com/tutorials/http-the-protocol-every-web-developer-must-know-part-1--net-31177
 
 ### What a URL reveals about a web app
