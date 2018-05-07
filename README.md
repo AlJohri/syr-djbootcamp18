@@ -4,7 +4,7 @@ peekaboo! 👻
 
 *This page will constantly be updated.*
 
-- **Instructors**: [Dhrumil Mehta](https://www.linkedin.com/in/dhrumilmehta/) and [Al Johri](https://www.linkedin.com/in/AlJohri)
+- **Instructors**: [Dhrumil Mehta](https://www.linkedin.com/in/dhrumilmehta/) ([@DataDhrumil](https://twitter.com/DataDhrumil)) and [Al Johri](https://www.linkedin.com/in/AlJohri) ([@AlJohri](https://twitter.com/AlJohri))
 - **Dates**: May 4 - May 6
 - **Slack**: https://djbootcamp18.slack.com/
 - **Repo**: https://git.io/vpV1H
